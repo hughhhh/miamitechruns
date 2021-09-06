@@ -1,10 +1,22 @@
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
+import prompt from "./prompt.png";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <img src={prompt} width={750} height={750} />
+      <br></br>
+      <Button
+        variant="primary"
+        size="lg"
+        onClick={() => {
+          window.location.href = "https://t.me/joinchat/jH3tmn43OTI5Mzlh";
+        }}
+      >
+        Click here to get early access
+      </Button>{" "}
     </div>
   );
 }

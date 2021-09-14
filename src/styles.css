@@ -1,9 +1,12 @@
-.App {
-  display: "flex";
-  flex-direction: "row";
-  font-family: sans-serif;
-  text-align: center;
+body {
   background-color: #f7f7f7;
-  width: 100%;
-  height: 100%;
+}
+
+.App {
+  font-family: "DM Mono", "Inter", monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 15px;
+  margin: 10px 10px;
 }

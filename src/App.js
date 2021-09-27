@@ -18,7 +18,7 @@ export default function App() {
         variant="primary"
         size="lg"
         onClick={() => {
-          window.location.href = "https://t.me/joinchat/jH3tmn43OTI5Mzlh";
+          window.location.href = "https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMDc0NzE2NTUx";
         }}
       >
         Click here to get early access

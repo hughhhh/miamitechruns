@@ -28,17 +28,21 @@ const Home = () => (
       Bringing together the nation's emerging and established Founders, VCs, and
       Creatives to build community, hoops, and mindfulness
     </div>
-    <br></br>
-    <Button
-      variant="primary"
-      size="lg"
-      onClick={() => {
-        window.location.href =
-          "https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMDc0NzE2NTUx";
-      }}
-    >
-      Click here to get early access
-    </Button>{" "}
+    <div className="m10">
+      <Link to="/join">Click here for instructions to join</Link>
+    </div>
+    <div className="m10">
+      <Button
+        variant="primary"
+        size="lg"
+        onClick={() => {
+          window.location.href =
+            "https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMDc0NzE2NTUx";
+        }}
+      >
+        Click here to get access to telegram
+      </Button>{" "}
+    </div>
   </div>
 );
 

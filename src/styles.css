@@ -11,6 +11,10 @@ body {
   margin: 10px 10px;
 }
 
+.m10 {
+  margin: 10px 0px;
+}
+
 .tutorial {
   margin-top: 20px;
 }

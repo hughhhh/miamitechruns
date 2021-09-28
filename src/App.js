@@ -62,11 +62,7 @@ const Instructions = () => {
       <div> 3. connect your wallet</div>
       <div> 3. after you should access to MiamiTechRuns DAO chat</div>
 
-      <img
-        className="tutorial"
-        src="tutorial3.gif"
-        alt="This is an animated gif image, but it does not move"
-      />
+      <img className="tutorial" src="tutorial.gif" alt="oops" />
     </div>
   );
 };

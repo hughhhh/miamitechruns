@@ -12,9 +12,27 @@ body {
 }
 
 .m10 {
-  margin: 10px 0px;
+  margin: 10px auto;
 }
 
 .tutorial {
-  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.p {
+  margin: 10px auto;
+}
+
+.squad {
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+}
+
+.holder {
+  padding: 10px 5px;
+}
+
+.ig {
+  max-width: 24px;
 }

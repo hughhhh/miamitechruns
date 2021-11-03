@@ -106,6 +106,10 @@ const BuyInstructions = () => {
     <div className="intructions">
       <h1>Instructions to buy Season 1 Tokens</h1>
       <div>
+        <strong>Note:</strong> Before you follow these instructions,{" "}
+        <Link to="/tokens">make sure you have 200 $MTSR1 tokens</Link>.
+      </div>
+      <div>
         {" "}
         1. Open{" "}
         <a href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xa2ec64a067039a34a475403f3447c1a569722458">

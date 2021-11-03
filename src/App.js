@@ -74,8 +74,6 @@ const GameInstructions = () => {
           </li>
         </ul>
       </div>
-
-      <img className="tutorial" src="tutorial.gif" alt="oops" />
     </div>
   );
 };

@@ -83,6 +83,10 @@ const JoinInstructions = () => {
     <div className="intructions">
       <h1>Instructions to join</h1>
       <div>
+        <strong>Note:</strong> Before you follow these instructions,{" "}
+        <Link to="/tokens">make sure you have 200 $MTSR1 tokens</Link>.
+      </div>
+      <div>
         {" "}
         1. Click{" "}
         <a href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMDc0NzE2NTUx">
@@ -103,10 +107,6 @@ const BuyInstructions = () => {
   return (
     <div className="intructions">
       <h1>Instructions to buy Season 1 Tokens</h1>
-      <div>
-        <strong>Note:</strong> Before you follow these instructions,{" "}
-        <Link to="/tokens">make sure you have 200 $MTSR1 tokens</Link>.
-      </div>
       <div>
         {" "}
         1. Open{" "}

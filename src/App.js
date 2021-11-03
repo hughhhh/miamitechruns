@@ -26,6 +26,13 @@ export default function App() {
   );
 }
 
+const games = {
+  next: "November 13th",
+  public: "",
+  final: "December 11th",
+  other: ["November 27th"],
+};
+
 const Home = () => (
   <div className="holder">
     <h1>🏀</h1>
@@ -47,7 +54,7 @@ const Home = () => (
     </div>
     <div className="m10">
       <p>
-        Next token holder game: November 13th -{" "}
+        Next token holder game: {games.next} -{" "}
         <Link to="/games">full schedule.</Link>
       </p>
     </div>
@@ -65,12 +72,19 @@ const GameInstructions = () => {
       <h1>Tentative upcoming games</h1>
       <div>
         <ul>
+          {games.public && (
+            <li>
+              <strong>Next public/open game:</strong> {games.public}
+            </li>
+          )}
           <li>
-            <strong>Next game:</strong> November 13th
+            <strong>Next game:</strong> {games.next}
           </li>
-          <li>Nov 27th</li>
+          {games.other.map((text) => (
+            <li>{text}</li>
+          ))}
           <li>
-            <strong>Final season 1 game:</strong>Dec 11th
+            <strong>Final season 1 game:</strong> {games.final}
           </li>
         </ul>
       </div>

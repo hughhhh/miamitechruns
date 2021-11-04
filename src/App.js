@@ -40,7 +40,7 @@ const Home = () => (
     <img src="mtr-squad.jpg" alt="Miami Tech Runs Squad" className="squad" />
     <div className="p">
       Bringing together Miami's emerging and established Founders, VCs, and
-      Creatives to build community, hoops, and mindfulness. Open membership!
+      Creatives to build community, play hoops, and practice mindfulness. Open membership!
     </div>
     <div className="m10">
       <Link to="/join">Click here for instructions to join</Link>

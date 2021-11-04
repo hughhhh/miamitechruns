@@ -39,7 +39,7 @@ const Home = () => (
     <h1 className="t">Miami Tech Runs</h1>
     <img src="mtr-squad.jpg" alt="Miami Tech Runs Squad" className="squad" />
     <div className="p">
-      Bringing together the Miami's emerging and established Founders, VCs, and
+      Bringing together Miami's emerging and established Founders, VCs, and
       Creatives to build community, hoops, and mindfulness. Open membership!
     </div>
     <div className="m10">
@@ -98,7 +98,7 @@ const JoinInstructions = () => {
       <h1>Instructions to join</h1>
       <div>
         <strong>Note:</strong> Before you follow these instructions,{" "}
-        <Link to="/tokens">make sure you have 200 $MTSR1 tokens</Link>.
+        <Link to="/tokens">make sure you have 200 $MTRS1 tokens</Link>.
       </div>
       <div>
         {" "}

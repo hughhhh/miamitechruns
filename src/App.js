@@ -30,8 +30,23 @@ const games = {
   next: "November 13th",
   public: "",
   final: "December 11th",
-  other: ["November 27th"],
+  other: ["November 27th"]
 };
+
+const listOfGames = [
+  {
+    date: "November 13th",
+    title: "Miami Detail"
+  },
+  {
+    date: "November 20th",
+    title: "Jaffer Mansion"
+  },
+  {
+    date: "December 4th",
+    title: "Art Basel / Season 1 Finale"
+  }
+];
 
 const Home = () => (
   <div className="holder">
@@ -40,7 +55,8 @@ const Home = () => (
     <img src="mtr-squad.jpg" alt="Miami Tech Runs Squad" className="squad" />
     <div className="p">
       Bringing together Miami's emerging and established Founders, VCs, and
-      Creatives to build community, play hoops, and practice mindfulness. Open membership!
+      Creatives to build community, play hoops, and practice mindfulness. Open
+      membership!
     </div>
     <div className="m10">
       <Link to="/join">Click here for instructions to join</Link>
@@ -72,20 +88,11 @@ const GameInstructions = () => {
       <h1>Tentative upcoming games</h1>
       <div>
         <ul>
-          {games.public && (
+          {listOfGames.map((game) => (
             <li>
-              <strong>Next public/open game:</strong> {games.public}
+              <strong>{game.title}</strong> {game.date}
             </li>
-          )}
-          <li>
-            <strong>Next game:</strong> {games.next}
-          </li>
-          {games.other.map((text) => (
-            <li>{text}</li>
           ))}
-          <li>
-            <strong>Final season 1 game:</strong> {games.final}
-          </li>
         </ul>
       </div>
     </div>

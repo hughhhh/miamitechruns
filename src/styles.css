@@ -2,6 +2,10 @@ body {
   background-color: #f7f7f7;
 }
 
+li {
+  list-style-type: none;
+}
+
 .App {
   font-family: "DM Mono", "Inter", monospace;
   display: flex;

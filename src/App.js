@@ -26,13 +26,6 @@ export default function App() {
   );
 }
 
-const games = {
-  next: "November 13th",
-  public: "",
-  final: "December 11th",
-  other: ["November 27th"]
-};
-
 const listOfGames = [
   {
     date: "November 13th",

@@ -48,7 +48,6 @@ const Home = () => (
     </div>
     <div className="m10">
       <p>
-        Next token holder game: {listOfGames[0].date} -{" "}
         <Link to="/games">full schedule.</Link>
       </p>
     </div>

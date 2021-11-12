@@ -27,18 +27,18 @@ export default function App() {
 }
 
 const listOfGames = [
-  {
-    date: "November 13th",
-    title: "Miami Detail"
-  },
-  {
-    date: "November 20th",
-    title: "Jaffer Mansion"
-  },
-  {
-    date: "December 4th",
-    title: "Art Basel / Season 1 Finale"
-  }
+//   {
+//     date: "November 13th",
+//     title: "Miami Detail"
+//   },
+//   {
+//     date: "November 20th",
+//     title: "Jaffer Mansion"
+//   },
+//   {
+//     date: "December 4th",
+//     title: "Art Basel / Season 1 Finale"
+//   }
 ];
 
 const Home = () => (

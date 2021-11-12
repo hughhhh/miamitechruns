@@ -27,18 +27,18 @@ export default function App() {
 }
 
 const listOfGames = [
-  {
-    date: "November 13th",
-    title: "Miami Detail"
-  },
-  {
-    date: "November 20th",
-    title: "Jaffer Mansion"
-  },
-  {
-    date: "December 4th",
-    title: "Art Basel / Season 1 Finale"
-  }
+  // {
+  //   date: "November 13th",
+  //   title: "Miami Detail"
+  // },
+  // {
+  //   date: "November 20th",
+  //   title: "Jaffer Mansion"
+  // },
+  // {
+  //   date: "December 4th",
+  //   title: "Art Basel / Season 1 Finale"
+  // }
 ];
 
 const Home = () => (
@@ -80,13 +80,8 @@ const GameInstructions = () => {
     <div className="intructions">
       <h1>Tentative upcoming games</h1>
       <div>
-        <ul>
-          {listOfGames.map((game) => (
-            <li>
-              <strong>{game.title}</strong> {game.date}
-            </li>
-          ))}
-        </ul>
+        To be determined! please reference token-gated telegram chat for more
+        intructions
       </div>
     </div>
   );

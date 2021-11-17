@@ -37,18 +37,35 @@ const Home = () => (
       membership!
     </div>
     <div className="m10">
-      <Link to="/join">Click here for instructions to join</Link>
-    </div>
-    <div className="m10">
+      <div className="p">To join you must purchase $200 MTRS1 tokens!</div>
       <Link to="/tokens">
         <Button variant="primary" size="lg">
-          Click here to buy $MTRS1 tokens
+          Buy $MTRS1 tokens
         </Button>
       </Link>
+      <div className="m10">
+        <div className="p">
+          Once you purchase your tokens you'll have access to our telegram chat.
+          This where we coordinate events and games for our members!
+        </div>
+        <Link to="/join">
+          <Button variant="secondary" size="lg">
+            Join Telegram Chat
+          </Button>
+        </Link>
+      </div>
     </div>
-    <div className="m10">
+    <div className="m20">
+      <h3>Resources</h3>
       <p>
-        <Link to="/games">full schedule.</Link>
+        <Link
+          to={{
+            pathname: "https://mtr.super.site"
+          }}
+          target="_blank"
+        >
+          Members Directory
+        </Link>
       </p>
     </div>
     <div>

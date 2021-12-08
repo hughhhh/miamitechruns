@@ -1,5 +1,7 @@
 import { Button } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Mailchimp from "react-mailchimp-form";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
@@ -67,6 +69,20 @@ const Home = () => (
           Members Directory
         </Link>
       </p>
+    </div>
+    <div className="p">
+      <h3>Want to join?</h3>
+      <Mailchimp
+        action="https://xyz.us20.list-manage.com/subscribe/post?u=b2c0181dd84785ffbf5f9738c&amp;id=03ad6c77c6"
+        fields={[
+          {
+            name: "EMAIL",
+            placeholder: "Email",
+            type: "email",
+            required: true
+          }
+        ]}
+      />
     </div>
     <div>
       <a href="https://www.instagram.com/miamitechruns/" target="_blank">

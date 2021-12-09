@@ -39,12 +39,26 @@ const Home = () => (
       membership!
     </div>
     <div className="m10">
-      <div className="p">To join you must purchase $200 MTRS1 tokens!</div>
+     /* <div className="p">To join you must purchase 200 MTRS1 tokens!</div>
       <Link to="/tokens">
         <Button variant="primary" size="lg">
           Buy $MTRS1 tokens
         </Button>
-      </Link>
+      </Link>*/
+      <div className="p">
+      <h3>Want to join the waitlist for Season 2?</h3>
+      <Mailchimp
+        action="https://xyz.us20.list-manage.com/subscribe/post?u=b2c0181dd84785ffbf5f9738c&amp;id=03ad6c77c6"
+        fields={[
+          {
+            name: "EMAIL",
+            placeholder: "Email",
+            type: "email",
+            required: true
+          }
+        ]}
+      />
+    </div>
       <div className="m10">
         <div className="p">
           Once you purchase your tokens you'll have access to our telegram chat.
@@ -69,20 +83,6 @@ const Home = () => (
           Members Directory
         </Link>
       </p>
-    </div>
-    <div className="p">
-      <h3>Want to join?</h3>
-      <Mailchimp
-        action="https://xyz.us20.list-manage.com/subscribe/post?u=b2c0181dd84785ffbf5f9738c&amp;id=03ad6c77c6"
-        fields={[
-          {
-            name: "EMAIL",
-            placeholder: "Email",
-            type: "email",
-            required: true
-          }
-        ]}
-      />
     </div>
     <div>
       <a href="https://www.instagram.com/miamitechruns/" target="_blank">

@@ -8,7 +8,7 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/(.*)',
+        source: '/guests',
         destination: 'https://concentric-piranha-k2bfs72v0xzwp1pr9j0tlpux.herokudns.com',
         permanent: false,
       },

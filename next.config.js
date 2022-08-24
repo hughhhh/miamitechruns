@@ -7,6 +7,11 @@ module.exports = {
         permanent: false,
         basePath: false
       },
+      {
+        source: '/(.*)',
+        destination: 'https://concentric-piranha-k2bfs72v0xzwp1pr9j0tlpux.herokudns.com',
+        permanent: false,
+      },
      ]
   },
   reactStrictMode: true,
